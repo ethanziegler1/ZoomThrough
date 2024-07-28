@@ -1,0 +1,15 @@
+.img-container {
+  image-rendering: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container img {
+  position: absolute;
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 100dvh;
+  width: 100dvw;
+  z-index: 1;
+}/*# sourceMappingURL=styles.css.map */
